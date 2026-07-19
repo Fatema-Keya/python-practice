@@ -6,7 +6,7 @@ class Employee:
         self.salary = salary
 
     def display(self):
-        print(self.id, self.name, self.salary)
+        print(f"Your Id is: {self.id} Your name is: {self.name} Your salary is: {self.salary}")
 
 
 employees = []
